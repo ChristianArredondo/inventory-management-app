@@ -1,6 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {Product} from "../../../product.model";
 
+/**
+ * @Image display: A component to show the image of a Product
+ */
+
 @Component({
   selector: 'app-product-image',
   template: `
