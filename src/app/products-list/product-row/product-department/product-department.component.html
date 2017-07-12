@@ -1,3 +1,4 @@
-<p>
-  product-department works!
-</p>
+<span *ngFor="let section of department; let i=index">
+  <a href="#">{{ section }}</a>
+  <span>{{i < (department.length-1) ? ' >' : ''  }}</span>
+</span>
