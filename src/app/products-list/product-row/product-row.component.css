@@ -1,0 +1,7 @@
+#item-row {
+  padding: 15px 0;
+}
+
+:host(.selected) #item-row {
+  border: 1px solid lightsteelblue;
+}

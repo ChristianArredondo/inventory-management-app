@@ -1,5 +1,7 @@
- <app-product-row
-   *ngFor="let product of productList"
-   [product]="product"
-   (click)="clicked(product)"></app-product-row>
-
+<div>
+  <app-product-row
+     *ngFor="let product of productList"
+     [product]="product"
+     (click)="clicked(product)"
+     [class.selected]="isSelected(product)"></app-product-row>
+</div>
