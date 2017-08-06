@@ -3,7 +3,7 @@
 
 # InventoryManagementApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+A tiny web application that displays products and their details, built as an exercise to practie Angular Directives and Event Emitters. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3. 
 
 ## Development server
 
